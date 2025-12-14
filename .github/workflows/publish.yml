@@ -32,8 +32,8 @@ jobs:
           modrinth-featured: true
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
 
-          name: $NAME $VERSION for Minecraft $GAMEVERSION
-          version: $VERSION
+          name: ${{ vars.NAME }} ${{ vars.VERSION }} for Minecraft ${{ vars.GAMEVERSION }}
+          version: ${{ vars.VERSION }}
 
           retry-attempts: 2
           retry-delay: 10000
