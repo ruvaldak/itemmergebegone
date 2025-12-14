@@ -31,6 +31,6 @@ You have been warned. Enjoy the pretty piles of loot.
 ## ⚖️ License
 **CC0 1.0 Universal (Public Domain)**.
 
-Because of the Mojang mappings (and because I don't care), this project is dedicated to the public domain. I reserve no rights. Take it, sell it, eat it. Threaten your wife's boyfriend with it.
+Because of the Mojang mappings (and because I don't care), I have to use this license. I reserve no rights. Take it, sell it, eat it. Threaten your wife's boyfriend with it.
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
