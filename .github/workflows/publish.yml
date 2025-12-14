@@ -1,3 +1,5 @@
+${{ variables.VERSION }} for Minecraft ${{ variables.GAMEVERSION }}
+
 name: build+publish
 on: [workflow_dispatch]
 
@@ -28,7 +30,17 @@ jobs:
       - name: mc-publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          # Only include this section if you wish to publish
-          # your assets on Modrinth.
-          modrinth-id: AANobbMI
+          modrinth-id: Vv5hQzeB
+          modrinth-featured: true
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          name: $NAME $VERSION for Minecraft $GAMEVERSION
+          version: $VERSION
+          version-type: release
+
+          loaders: fabric
+          game-versions: >=$GAMEVERSION
+
+          retry-attempts: 2
+          retry-delay: 10000
+          fail-mode: fail
