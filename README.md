@@ -1,4 +1,4 @@
-# NoMerge
+# Item Merge Begone
 
 Minecraft's item merging is ugly. So I fixed it.
 
