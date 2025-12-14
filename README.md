@@ -2,28 +2,22 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Minecraft's item merging is ugly. So I fixed it.
+I hate how items merge into a single entity in Minecraft so I made this.
 
-This is a tiny mod for **1.21.1+** that stops dropped items from merging.
-
-## 🤷 Why?
+## Why?
 Because I like the aesthetic. The chaos. The visceral satisfaction of picking up a ton of items off the ground.
 
-## 🔧 How it Works
-It's literally one Mixin.
-I hook into `ItemEntity.mergeWithNeighbours()` and tell it to `return;` immediately. The game doesn't even *think* about merging. It saves the CPU from doing the math, then immediately spends that CPU on rendering 500 individual entities.
-
-## 🧱 Build / Install
+## Build / Install
 1.  Clone this.
 2.  Run `./gradlew build`.
 3.  Throw the jar in your mods folder.
 4.  Profit.
+5.  ???
+6.  Why are there more bullet points past "Profit"?
 
-## 💣 The "My PC is Burning" Warning
-**Read this.**
-
-Minecraft merges items for a reason: Performance.
-If you use this mod and decide to blow up 20 double chests full of cobblestone, your framerate is going to leave the chat.
+## Performance Warning
+Minecraft merges items for performance reasons.
+If you use this mod and decide to blow up 20 double chests full of cobblestone, your framerate is probably going blow up with them.
 
 * **Don't** use this on a server with massive mob farms unless you like lag.
 * **Don't** come crying to me if your quarry creates a black hole of entities.
