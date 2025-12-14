@@ -2,16 +2,15 @@
 	"schemaVersion": 1,
 	"id": "itemmergebegone",
 	"version": "${version}",
-	"name": "ItemMergeBegone",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"name": "Item Merge Begone",
+	"description": "prevents dropped items from merging",
 	"authors": [
-		"Me!"
+		"AshlynnMods"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"sources": "https://github.com/ruvaldak/itemmergebegone"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/itemmergebegone/icon.png",
 	"environment": "*",
 	"entrypoints": {
