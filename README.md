@@ -1,5 +1,7 @@
 # Item Merge Begone
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Minecraft's item merging is ugly. So I fixed it.
 
 This is a tiny mod for **1.21.1+** that stops dropped items from merging.
@@ -27,10 +29,3 @@ If you use this mod and decide to blow up 20 double chests full of cobblestone, 
 * **Don't** come crying to me if your quarry creates a black hole of entities.
 
 You have been warned. Enjoy the pretty piles of loot.
-
-## ⚖️ License
-**CC0 1.0 Universal (Public Domain)**.
-
-Because of the Mojang mappings (and because I don't care), I have to use this license. I reserve no rights. Take it, sell it, eat it. Threaten your wife's boyfriend with it.
-
-[![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](http://creativecommons.org/publicdomain/zero/1.0/)
