@@ -1,5 +1,5 @@
 name: build+publish
-on:
+on: [schedule]
 
 jobs:
   build:
