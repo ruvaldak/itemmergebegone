@@ -1,5 +1,3 @@
-${{ variables.VERSION }} for Minecraft ${{ variables.GAMEVERSION }}
-
 name: build+publish
 on: [workflow_dispatch]
 
